@@ -34,7 +34,6 @@ C:\Users\Lysikov\Source\Repos\WPFModernVerticalMenu\obj\Debug\WPFModernVerticalM
 C:\Users\Lysikov\Source\Repos\WPFModernVerticalMenu\obj\Debug\Controls\MenuItem.g.cs
 C:\Users\Lysikov\Source\Repos\WPFModernVerticalMenu\obj\Debug\Controls\UserPopup.g.cs
 C:\Users\Lysikov\Source\Repos\WPFModernVerticalMenu\obj\Debug\MainWindow.g.cs
-C:\Users\Lysikov\Source\Repos\WPFModernVerticalMenu\obj\Debug\Pages\Dashboard.g.cs
 C:\Users\Lysikov\Source\Repos\WPFModernVerticalMenu\obj\Debug\Pages\Home.g.cs
 C:\Users\Lysikov\Source\Repos\WPFModernVerticalMenu\obj\Debug\App.g.cs
 C:\Users\Lysikov\Source\Repos\WPFModernVerticalMenu\obj\Debug\GeneratedInternalTypeHelper.g.cs
@@ -45,7 +44,6 @@ C:\Users\Lysikov\Source\Repos\WPFModernVerticalMenu\obj\Debug\Assets\Icons.baml
 C:\Users\Lysikov\Source\Repos\WPFModernVerticalMenu\obj\Debug\Controls\MenuItem.baml
 C:\Users\Lysikov\Source\Repos\WPFModernVerticalMenu\obj\Debug\Controls\UserPopup.baml
 C:\Users\Lysikov\Source\Repos\WPFModernVerticalMenu\obj\Debug\MainWindow.baml
-C:\Users\Lysikov\Source\Repos\WPFModernVerticalMenu\obj\Debug\Pages\Dashboard.baml
 C:\Users\Lysikov\Source\Repos\WPFModernVerticalMenu\obj\Debug\Pages\Home.baml
 C:\Users\Lysikov\Source\Repos\WPFModernVerticalMenu\obj\Debug\Styles\MainStyle.baml
 C:\Users\Lysikov\Source\Repos\WPFModernVerticalMenu\obj\Debug\Themes\DarkTheme.baml

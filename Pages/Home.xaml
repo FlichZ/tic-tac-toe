@@ -9,18 +9,28 @@
       Title="Home">
 
     <Border CornerRadius="5" Background="{DynamicResource SecundaryBackgroundColor}">
-        <Grid>
-            <TextBlock Text="Home" FontSize="30" Foreground="{DynamicResource PrimaryTextColor}" FontWeight="Bold"
-                   VerticalAlignment="Center" HorizontalAlignment="Center"/>
-            <Button HorizontalAlignment="Left" Margin="151,20,0,0" VerticalAlignment="Top" Height="135" Width="162"/>
-            <Button HorizontalAlignment="Left" Margin="313,20,0,0" VerticalAlignment="Top" Height="135" Width="166" RenderTransformOrigin="0.508,0.497"/>
-            <Button HorizontalAlignment="Left" Margin="479,20,0,0" VerticalAlignment="Top" Height="135" Width="167"/>
-            <Button HorizontalAlignment="Left" Margin="151,155,0,0" VerticalAlignment="Top" Height="136" Width="162"/>
-            <Button HorizontalAlignment="Left" Margin="313,155,0,0" VerticalAlignment="Top" Height="136" Width="166"/>
-            <Button HorizontalAlignment="Left" Margin="479,155,0,0" VerticalAlignment="Top" Height="136" Width="167"/>
-            <Button HorizontalAlignment="Left" Margin="151,291,0,0" VerticalAlignment="Top" Height="132" Width="162"/>
-            <Button HorizontalAlignment="Left" Margin="313,291,0,0" VerticalAlignment="Top" Height="133" Width="166" RenderTransformOrigin="0.513,0.516"/>
-            <Button HorizontalAlignment="Left" Margin="479,291,0,0" VerticalAlignment="Top" Height="133" Width="167"/>
+        <Grid Margin="10,-10,-10,10">
+            <Button x:Name="button1" HorizontalAlignment="Left" Margin="151,20,0,0" VerticalAlignment="Top" Height="135" Width="162" Click="button1_Click" IsEnabled="False"/>
+            <Button x:Name="button2" HorizontalAlignment="Left" Margin="313,20,0,0" VerticalAlignment="Top" Height="135" Width="166" RenderTransformOrigin="0.508,0.497" Click="button1_Click" IsEnabled="False"/>
+            <Button x:Name="button3" HorizontalAlignment="Left" Margin="479,20,0,0" VerticalAlignment="Top" Height="135" Width="167" IsEnabled="False" Click="button1_Click"/>
+            <Button x:Name="button4" HorizontalAlignment="Left" Margin="151,155,0,0" VerticalAlignment="Top" Height="136" Width="162" Click="button1_Click" IsEnabled="False"/>
+            <Button x:Name="button5" HorizontalAlignment="Left" Margin="313,155,0,0" VerticalAlignment="Top" Height="136" Width="166" Click="button1_Click" IsEnabled="False"/>
+            <Button x:Name="button6" HorizontalAlignment="Left" Margin="479,155,0,0" VerticalAlignment="Top" Height="136" Width="167" Click="button1_Click" IsEnabled="False"/>
+            <Button x:Name="button7" HorizontalAlignment="Left" Margin="151,291,0,0" VerticalAlignment="Top" Height="132" Width="162" Click="button1_Click" IsEnabled="False"/>
+            <Button x:Name="button8" HorizontalAlignment="Left" Margin="313,291,0,0" VerticalAlignment="Top" Height="133" Width="166" RenderTransformOrigin="0.513,0.516" Click="button1_Click" IsEnabled="False"/>
+            <Button x:Name="button9" HorizontalAlignment="Left" Margin="479,291,0,0" VerticalAlignment="Top" Height="133" Width="167" Click="button1_Click" IsEnabled="False"/>
+            <TextBlock x:Name="text_w_l" HorizontalAlignment="Left" Margin="168,411,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="36" Width="492" Height="136" IsEnabled="False">
+                <TextBlock.Foreground>
+                    <RadialGradientBrush>
+                        <GradientStop Color="#FF56B11B" Offset="0.205"/>
+                        <GradientStop Color="#FFBD2F2F" Offset="1"/>
+                    </RadialGradientBrush>
+                </TextBlock.Foreground>
+            </TextBlock>
+            <Button x:Name="reserbutton" Content="START" HorizontalAlignment="Left" Margin="691,247,0,0" VerticalAlignment="Top" IsEnabled="False" Click="reserbutton_Click"/>
+            <RadioButton x:Name="btnX" Content="Крестики" HorizontalAlignment="Left" Margin="681,113,0,0" VerticalAlignment="Top" Foreground="#FFFF0101" Click="Button_x_o_Click"/>
+            <RadioButton x:Name="btnO" Content="Нолики" HorizontalAlignment="Left" Margin="679,155,0,0" VerticalAlignment="Top" Foreground="Red" Click="RadioButton_Click"/>
+
         </Grid>
     </Border>
 </Page>

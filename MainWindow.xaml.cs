@@ -48,22 +48,6 @@ namespace WPFModernVerticalMenu
             Popup.Visibility = Visibility.Collapsed;
             Popup.IsOpen = false;
         }
-        private void btnProducts_MouseEnter(object sender, MouseEventArgs e)
-        {
-            if (Tg_Btn.IsChecked == false)
-            {
-                Popup.PlacementTarget = btnProducts;
-                Popup.Placement = PlacementMode.Right;
-                Popup.IsOpen = true;
-                Header.PopupText.Text = "Products";
-            }
-        }
-
-        private void btnProducts_MouseLeave(object sender, MouseEventArgs e)
-        {
-            Popup.Visibility = Visibility.Collapsed;
-            Popup.IsOpen = false;
-        }
         private void btnSetting_MouseEnter(object sender, MouseEventArgs e)
         {
             if (Tg_Btn.IsChecked == false)
@@ -105,6 +89,7 @@ namespace WPFModernVerticalMenu
         private void btnHome_Click(object sender, RoutedEventArgs e)
         {
             fContainer.Navigate(new System.Uri("Pages/Home.xaml", UriKind.RelativeOrAbsolute));
+            LabelHide.Visibility = Visibility.Collapsed;
         }
 
         private void btnSetting_Click(object sender, RoutedEventArgs e)
@@ -113,6 +98,11 @@ namespace WPFModernVerticalMenu
         }
 
         private void MenuItem_Loaded(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void MenuItem_Loaded_1(object sender, RoutedEventArgs e)
         {
 
         }

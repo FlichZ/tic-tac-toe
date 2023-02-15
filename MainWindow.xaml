@@ -47,11 +47,8 @@
                         <Button x:Name="btnHome" Style="{DynamicResource PopupButtonStyle}"  MouseEnter="btnHome_MouseEnter" MouseLeave="btnHome_MouseLeave" Click="btnHome_Click">
                             <ctls:MenuItem GroupName="MenuItem" IndicatorBrush="{DynamicResource PrimaryBlueColor}" Icon="{DynamicResource home}" IconWidth="16" Text="Home" VerticalAlignment="Center" Loaded="MenuItem_Loaded"/>
                         </Button>
-                        <Button x:Name="btnProducts" Style="{DynamicResource PopupButtonStyle}"  MouseEnter="btnProducts_MouseEnter" MouseLeave="btnProducts_MouseLeave">
-                            <ctls:MenuItem GroupName="MenuItem" IndicatorBrush="{DynamicResource PrimaryBlueColor}" Icon="{DynamicResource products}" IconWidth="16" Text="Products" VerticalAlignment="Center"/>
-                        </Button>
                         <Button x:Name="btnSetting" Style="{DynamicResource PopupButtonStyle}"  MouseEnter="btnSetting_MouseEnter" MouseLeave="btnSetting_MouseLeave" Click="btnSetting_Click">
-                            <ctls:MenuItem GroupName="MenuItem" IndicatorBrush="{DynamicResource PrimaryBlueColor}" Icon="{DynamicResource settings}" IconWidth="16" Text="Setting" VerticalAlignment="Center"/>
+                            <ctls:MenuItem GroupName="MenuItem" IndicatorBrush="{DynamicResource PrimaryBlueColor}" Icon="{DynamicResource settings}" IconWidth="16" Text="Setting" VerticalAlignment="Center" Loaded="MenuItem_Loaded_1"/>
                         </Button>
                     </StackPanel>
                     <!-- End: MenuItem -->
@@ -118,9 +115,13 @@
                        NavigationUIVisibility="Hidden" RenderTransformOrigin="0.473,0.495" Grid.RowSpan="2">
 
                 </Frame>
-
+                <Label x:Name="LabelHide" Content="Tic Tac Toe"
+                               Foreground="{DynamicResource PrimaryTextColor}"
+                               FontSize="100"
+                               VerticalAlignment="Top"
+                               HorizontalAlignment="Center"
+                               Margin="0,154,0,0" Grid.Row="1" Height="141" Width="520" Grid.RowSpan="2" FontWeight="Bold"/>
             </Grid>
-
         </Grid>
     </Border>
 </Window>
